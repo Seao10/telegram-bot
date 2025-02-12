@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 # Replace with your tokens
 CLICKUP_API_URL = "https://flask-hello-world-xi-ashen.vercel.app/clickup"  # e.g., "https://your-app.vercel.app/clickup"
-
+TELEGRAM_TOKEN = "7689450336:AAFDb3T3GA1NKoYhSyIPYr_HXjfIMtLhtJQ"
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
     await update.message.reply_text(
