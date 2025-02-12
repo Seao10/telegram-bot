@@ -12,7 +12,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Replace with your tokens
-TELEGRAM_TOKEN = "7689450336:AAFDb3T3GA1NKoYhSyIPYr_HXjfIMtLhtJQ"
 CLICKUP_API_URL = "https://flask-hello-world-xi-ashen.vercel.app/clickup"  # e.g., "https://your-app.vercel.app/clickup"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
